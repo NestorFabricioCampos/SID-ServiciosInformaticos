@@ -108,8 +108,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -183,7 +181,7 @@
             <h2 class="text-center mb-5">Contáctenos</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-sm-10">
-                    <form id="contactForm">
+                    <form id="contactForm" action="enviamail.php" method="post">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="nombre" required>
@@ -191,6 +189,10 @@
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefonoContacto" class="form-label">Telefono</label>
+                            <input type="telefonoContacto" class="form-control" id="telefonoContacto" required>
                         </div>
                         <div class="mb-3">
                             <label for="mensaje" class="form-label">Mensaje</label>
