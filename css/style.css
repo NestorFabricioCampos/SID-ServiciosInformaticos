@@ -1,0 +1,102 @@
+body {
+    font-size: 22px;
+}
+
+.navbar-nav .nav-link {
+    transition: background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.card {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease; 
+    height: 100%;  
+}
+.card:hover {
+    background-color: #6c757d;
+}
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.technologies {
+    background-color: #e9ecef;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.tech-logo {
+    max-width: 100px;
+    height: auto;
+    margin: 1rem;
+}
+
+#textoLogos {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .jumbotron {
+        padding: 1rem 0.5rem;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .service-icon {
+        font-size: 2.5rem;
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+    .card-text {
+        font-size: 1rem;
+    }
+    .tech-logo {
+        max-width: 80px;
+    }
+}
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .tech-logo {
+        max-width: 60px;
+    }
+}
