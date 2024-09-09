@@ -5,7 +5,7 @@ header('Content-Type: text/html; charset=UTF-8');
 	$email=$_POST['input-email'];
     $telefonoContacto=$_POST['input-telefonoContacto'];
 	$mensaje=$_POST['input-mensaje'];
-	$contenido = "\nNombre: " .$nombre . "\nEmail: " .$email ."\nTelefono contacto: " .$telefonoContacto . "\nMensaje: " .$mensaje;
+	$contenido = "\nNombre: " .$nombre . "\nEmail: " .$email . "\nTelefono contacto: " .$telefonoContacto . "\nMensaje: " .$mensaje;
 	if(mail($destino,"SID Servicios Informáticos", "Datos del email recibido: "."\n". $contenido)){
 	//header("Location:mailenviado.html");
 }else{
